@@ -1,0 +1,14 @@
+Source: pwdfile-editor
+Section: utils
+Priority: extra
+Maintainer: Discreete Linux Team <info@discreete-linux.org>
+Build-Depends: debhelper (>= 9), dh-python
+Standards-Version: 3.9.5
+Homepage: https://www.discreete-linux.org
+
+Package: pwdfile-editor
+Architecture: all
+Depends: ${misc:Depends}, gnome-screensaver | gdm3, openssl, libpam-runtime
+Description: Utility for Discreete Linux to set a screensaver password
+ This is a little utility for setting a screensaver password. It is intended
+ solely for use with Discreete Linux.

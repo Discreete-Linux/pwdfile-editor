@@ -1,0 +1,6 @@
+181ca76129a5055279ca27b8e5421579  usr/bin/pwdfile-editor.py
+5f0b65d3fbf0b44d3f0daf16f024c9d1  usr/share/applications/pwdfile-editor.desktop
+8035592c3e79d6b81c6f46b24e29ce70  usr/share/doc/pwdfile-editor/changelog.gz
+12caf59f6629c37466b4d78b0366938a  usr/share/doc/pwdfile-editor/copyright
+068afd9ac7faf3fe54f1dd0ccf8b2828  usr/share/locale/de/LC_MESSAGES/pwdfile-editor.mo
+6faaf6b2029c6ab9e20cd7b7ff4e78be  usr/share/pam-configs/dsctl-pwdfile

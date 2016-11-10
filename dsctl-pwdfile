@@ -1,0 +1,8 @@
+Name: Auth by pwdfile in user's home directory
+Default: yes
+Priority: 512
+Auth-Type: Primary
+Auth:
+	[success=end authinfo_unavail=ignore auth_err=bad default=ignore]	pam_pwdfile.so nodelay pwdfile=/home/somebody/.lockpasswd
+Auth-Initial:
+	[success=end authinfo_unavail=ignore auth_err=bad default=ignore]	pam_pwdfile.so nodelay pwdfile=/home/somebody/.lockpasswd

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Lock screen password
+Comment=Set your lock screen password
+Icon=gnome-lockscreen
+Exec=pwdfile-editor.py
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Settings;DesktopSettings;
+OnlyShowIn=GNOME;
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=pwdfile-editor
